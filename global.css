@@ -3,6 +3,11 @@ a {
     color: cyan;
 
 }
+a:hover {
+
+    opacity: 0.666;
+    
+}
 
 p {
 
