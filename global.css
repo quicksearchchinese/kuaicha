@@ -11,6 +11,7 @@ a:hover {
 
 p {
 
+    width: fit-content;
     margin: 0;
 
 }
@@ -55,6 +56,24 @@ body {
 
 }
 
+#logo_div {
+
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    height: fit-content;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-items: center;
+    justify-self: center;
+    justify-content: center;
+    padding: 2%;
+    background-color: #250020;
+    border-radius: 20px;
+
+}
+
 #logo_div:hover {
 
     opacity: 0.666;
@@ -62,9 +81,18 @@ body {
     
 }
 
+#logo {
+
+    min-width: 50px;
+    width: 10%;
+    max-width: 500px;
+
+}
+
 #english_title {
 
-    font-size: 1.5rem;
+    margin: 5%;
+    font-size: 1rem;
 
 }
 
